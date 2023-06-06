@@ -145,9 +145,6 @@ transition(
       .project-item-img {
         margin-left: auto;
         margin-right: auto;
-        img {
-          max-height: unset;
-        }
       }
       .project-item-title {
         text-align: left;
@@ -160,6 +157,7 @@ transition(
         height: 100%;
         margin-left: auto;
         margin-right: auto;
+        max-height: unset;
       }
     }
     .project-item-wrapper {
