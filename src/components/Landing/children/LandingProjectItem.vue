@@ -157,6 +157,7 @@ transition(
         height: 100%;
         margin-left: auto;
         margin-right: auto;
+        max-height: unset;
       }
     }
     .project-item-wrapper {
