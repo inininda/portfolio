@@ -1,7 +1,3 @@
-<script setup>
-const ioLogo = new URL('../../assets/images/logo/io-white-logo.png', import.meta.url).href
-</script>
-
 <template lang="pug">
 .footer
   .copyright-texts
