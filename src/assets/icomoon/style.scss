@@ -1,0 +1,210 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?8gsti1');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?8gsti1#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?8gsti1') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?8gsti1') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?8gsti1##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-linkedin {
+  &:before {
+    content: $icon-linkedin; 
+  }
+}
+.icon-github {
+  &:before {
+    content: $icon-github; 
+  }
+}
+.icon-facebook {
+  &:before {
+    content: $icon-facebook; 
+  }
+}
+.icon-megaphone {
+  &:before {
+    content: $icon-megaphone; 
+  }
+}
+.icon-arrow-square-left {
+  &:before {
+    content: $icon-arrow-square-left; 
+  }
+}
+.icon-arrow-square-right {
+  &:before {
+    content: $icon-arrow-square-right; 
+  }
+}
+.icon-bell {
+  &:before {
+    content: $icon-bell; 
+  }
+}
+.icon-cross {
+  &:before {
+    content: $icon-cross; 
+  }
+}
+.icon-three-dots {
+  &:before {
+    content: $icon-three-dots; 
+  }
+}
+.icon-double-arrow-left {
+  &:before {
+    content: $icon-double-arrow-left; 
+  }
+}
+.icon-double-arrow-right {
+  &:before {
+    content: $icon-double-arrow-right; 
+  }
+}
+.icon-search {
+  &:before {
+    content: $icon-search; 
+  }
+}
+.icon-instagram-line {
+  &:before {
+    content: $icon-instagram-line; 
+  }
+}
+.icon-play {
+  &:before {
+    content: $icon-play; 
+  }
+}
+.icon-pause {
+  &:before {
+    content: $icon-pause; 
+  }
+}
+.icon-double-chevron-left {
+  &:before {
+    content: $icon-double-chevron-left; 
+  }
+}
+.icon-sidebar {
+  &:before {
+    content: $icon-sidebar; 
+  }
+}
+.icon-double-chevron-right {
+  &:before {
+    content: $icon-double-chevron-right; 
+  }
+}
+.icon-twitter {
+  &:before {
+    content: $icon-twitter; 
+  }
+}
+.icon-instagram {
+  &:before {
+    content: $icon-instagram; 
+  }
+}
+.icon-foundation {
+  &:before {
+    content: $icon-foundation; 
+  }
+}
+.icon-medium {
+  &:before {
+    content: $icon-medium; 
+  }
+}
+.icon-discord {
+  &:before {
+    content: $icon-discord; 
+  }
+}
+.icon-opensea {
+  &:before {
+    content: $icon-opensea; 
+  }
+}
+.icon-chevron-left-2 {
+  &:before {
+    content: $icon-chevron-left-2; 
+  }
+}
+.icon-chevron-right-2 {
+  &:before {
+    content: $icon-chevron-right-2; 
+  }
+}
+.icon-dropdown-arrow-up {
+  &:before {
+    content: $icon-dropdown-arrow-up; 
+  }
+}
+.icon-wallet {
+  &:before {
+    content: $icon-wallet; 
+  }
+}
+.icon-discord-2 {
+  &:before {
+    content: $icon-discord-2; 
+  }
+}
+.icon-maintenance {
+  &:before {
+    content: $icon-maintenance; 
+  }
+}
+.icon-profile {
+  &:before {
+    content: $icon-profile; 
+  }
+}
+.icon-disconnect {
+  &:before {
+    content: $icon-disconnect; 
+  }
+}
+.icon-chevron-down {
+  &:before {
+    content: $icon-chevron-down; 
+  }
+}
+.icon-chevron-left {
+  &:before {
+    content: $icon-chevron-left; 
+  }
+}
+.icon-chevron-right {
+  &:before {
+    content: $icon-chevron-right; 
+  }
+}
+.icon-chevron-up {
+  &:before {
+    content: $icon-chevron-up; 
+  }
+}
+

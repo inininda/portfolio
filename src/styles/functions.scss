@@ -1,0 +1,8 @@
+@function rem($pxValue) {
+  @return #{calc($pxValue / 16px)}rem;
+}
+
+@function vh($value) {
+  $vhValue: calc(var(--vh, 1vh) * #{$value});
+  @return $vhValue;
+}

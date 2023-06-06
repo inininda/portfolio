@@ -1,0 +1,204 @@
+$body-font: 'Inter', sans-serif;
+$title-font: 'filson-soft', sans-serif;
+$icomoon-font-path: '@/assets/icomoon/fonts';
+
+$default-cubic-bezier: cubic-bezier(0, 0, 0, 1);
+
+/* --- START - Design System Colour --- */
+// Design system styles
+$neutral-grey-2: #fafafa;
+$neutral-grey-4: #e3e3e3;
+$neutral-grey-6: #8c8c8c;
+$neutral-grey-7: #5f5f5f;
+$neutral-grey-8: #232323;
+
+$neutral-blue-grey-1: #ffffff;
+$neutral-blue-grey-2: #f9f9ff;
+$neutral-blue-grey-3: #e0e4ee;
+$neutral-blue-grey-4: #cfd4e1;
+$neutral-blue-grey-5: #a6abba;
+$neutral-blue-grey-6: #757b8c;
+$neutral-blue-grey-7: #49566c;
+$neutral-blue-grey-8: #282c38;
+
+/* --- END - Design System Colour --- */
+
+$white: #ffffff;
+$black: #000000;
+
+$disabled-button-bg: #8a94a6;
+$disabled-button-text: #26283a;
+
+$card-menu-text: $neutral-blue-grey-6;
+$card-menu-bg: #272a38;
+$card-solid-bg: #1f243c;
+$card-grey-text: $neutral-blue-grey-5;
+$card-button-text: $neutral-blue-grey-5;
+$card-staked-bg: #2d2d57;
+$card-unstaked-bg: #272a38;
+
+$rides-purple-3: #d47aff;
+$rides-purple-4: #b984ff;
+$rides-purple-5: #b18cff;
+$rides-purple-6: #ad7bff;
+$rides-purple-7: #8b44ff;
+$rides-purple-8: #570ecf;
+$rides-purple-9: #3a18c2;
+$rides-button-disabled: #826ca6;
+
+$body-bg: #141518;
+$input-bg: #282d5d;
+
+$revealing-text: #6f558f;
+
+$twitterBg: #00acee;
+$discordBg: #5865f2;
+
+$white2: #fafffc;
+
+$black2: #181818;
+$black3: #130047;
+$black4: #040404;
+$black5: #0e0017;
+
+$brown1: #49352f;
+$brown2: #242424;
+$brown3: #513000;
+
+$blue1: #0079ff;
+$blue2: #0e6eff;
+
+$purple1: #c566ff;
+$purple2: #d55cff;
+$purple3: #b234ff;
+$purple4: #e1caff;
+$purple5: #a800ff;
+$purple6: #dac9ff;
+$purple7: #ee85ff;
+$purple8: #d084ff;
+$purple9: #d0b3ff;
+$purple10: #f5d9ff;
+$purple11: #8900f4;
+$purple12: #7000c9;
+$purple13: #d766ff;
+$purple14: #5519f2;
+$purple15: #3e03dc;
+$purple16: #933eff;
+$purple17: #a072ff;
+$purple18: #8600ff;
+$purple19: #9e00ff;
+$purple20: #fed3ff;
+$purple21: #ad00ff;
+$purple22: #f2c0ff;
+$purple23: #ac85ff;
+$purple24: #6100ff;
+$purple25: #2e1fd7;
+$purple26: #540088;
+$purple27: #8357ff;
+$purple28: #c489ff;
+$purple29: #c391cb;
+$purple30: #baabe0;
+$purple31: #f8e8ff;
+$purple32: #9a01d0;
+$purple33: #8c148e;
+$purple34: #391498;
+$purple35: #9c6af8;
+
+$darkPurple1: #2800c6;
+$darkPurple2: #3300c6;
+$darkPurple3: #1a0083;
+$darkPurple4: #1d006a;
+$darkPurple5: #30007e;
+$darkPurple6: #19097a;
+$darkPurple7: #4111a8;
+$darkPurple8: #37007d;
+$darkPurple10: #26008b;
+$darkPurple11: #130044;
+$darkPurple12: #1b003e;
+$darkPurple13: #1e0044;
+$darkPurple14: #20007a;
+$darkPurple15: #1b0a5c;
+$darkPurple16: #1c012f;
+$darkPurple17: #3803c3;
+$darkPurple18: #170049;
+$darkPurple19: #160a35;
+$darkPurple20: #1d1430;
+
+$pink1: #d9b4ff;
+
+$magenta1: #7a005f;
+
+$green1: #00f11d;
+$green2: #43b49f;
+$green3: #3effdc;
+$green4: #00d119;
+$green5: #00ff85;
+$green6: #1dc775;
+$green7: #00ffc2;
+$green8: #00f4e6;
+
+$darkGreen1: #004a46;
+$darkGreen2: #005264;
+
+$grey1: #ddd;
+$grey2: #c4c4c4;
+$grey3: #e9e9e9;
+$grey4: #f7f7f7;
+$grey5: #e3e3e3;
+$grey6: #f1e9ff;
+$grey7: #c9c9c9;
+$grey8: #707070;
+$grey9: #d2ced4;
+$grey10: #ababab;
+$grey11: #d9d9d9;
+$grey12: #595959;
+$grey13: #e0e4ee;
+$grey14: #f2f2f2;
+
+$yellow1: #ffc34e;
+$yellow2: #ffef00;
+$yellow3: #ebff00;
+$yellow4: #faff00;
+$yellow5: #fff70e;
+
+$orange1: #ff7f00;
+$orange2: #ec9c00;
+$orange3: #ff6b16;
+$orange4: #ff9900;
+$orange5: #ffb800;
+
+$red1: #ff0900;
+$red2: #d20d0d;
+
+$yellow800: #ffe600;
+$orange100: #fffcf7;
+$orange200: #fcf6e6;
+
+$purple100: #6c3dcf;
+$purple200: #3633c8;
+$purple300: #4340fc;
+$purple400: #5034ff;
+$purple500: #6b20ff;
+$purple800: #2b2b7c;
+$purple900: #36379b;
+
+$pink200: #efbfff;
+$pink700: #ff8cfa;
+$pink800: #ff6bdf;
+
+$lightPink100: #ffe4cc;
+$lightGrey400: #e1e4e8;
+$lightGrey300: #f6f6f6;
+
+$lightBlue: #8c98ff;
+$darkBlue: #231c32;
+
+$darkGrey100: #1e1e1e;
+$darkGrey200: #232323;
+$gray: #292929;
+$success: $green5;
+$error: $red1;
+$warning: $orange3;
+$danger: $red1;
+$main-bg: rgb(249, 245, 242);
+$sage: #a5cbcb;

@@ -1,0 +1,175 @@
+.v-btn {
+  text-transform: none;
+  border-radius: 5px;
+  letter-spacing: 0;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 0.04rem;
+  box-shadow: none !important;
+
+  &--rounded {
+    border-radius: 30px;
+  }
+
+  &--success {
+    background: $success;
+    color: $white;
+  }
+
+  &--warning {
+    background: $warning;
+    color: $black;
+  }
+
+  &--danger {
+    background: $danger;
+    color: $white;
+  }
+
+  &--disabled,
+  &:disabled {
+    color: $disabled-button-text;
+    background-color: $disabled-button-bg;
+  }
+}
+
+.v-btn__content {
+  span {
+    vertical-align: middle;
+    display: inline-block;
+  }
+}
+
+.v-tabs {
+  margin: 26px 0;
+
+  .v-tab {
+    --v-tabs-height: 34px;
+    min-width: auto;
+    font-size: 0.875rem;
+    padding: 0 4px;
+    margin: 0 15px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+.v-card--variant-contained {
+  box-shadow: none;
+}
+
+.v-input {
+  .v-field.v-field--variant-solo {
+    border-radius: 5px;
+    box-shadow: none;
+    background: $input-bg;
+
+    .v-field__overlay {
+      opacity: 1;
+    }
+  }
+
+  .v-input__details {
+    margin-bottom: 5px;
+  }
+
+  &.hide-input-details {
+    .v-input__details {
+      display: none !important;
+    }
+  }
+}
+
+.v-overlay-container {
+  .v-select__content,
+  .v-combobox__content {
+    max-height: 250px !important;
+  }
+  .v-overlay--active {
+    z-index: 98 !important;
+  }
+  .v-overlay--absolute.v-overlay--active {
+    z-index: 100 !important;
+  }
+
+  .v-overlay--active:nth-of-type(3) {
+    z-index: 0 !important;
+  }
+}
+
+.v-overlay__content {
+  overflow: auto;
+}
+
+.v-overlay__scrim {
+  opacity: 0.8;
+  background: $black;
+}
+
+.v-slide-group {
+  position: relative;
+}
+
+.v-slide-group__prev,
+.v-slide-group__next {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  margin-top: calc(var(--button-size) * -0.5);
+  width: var(--button-size);
+  height: var(--button-size);
+  min-width: auto;
+  flex-basis: var(--button-size);
+  transition: transform 0.3s $default-cubic-bezier;
+
+  &--disabled {
+    display: none;
+  }
+}
+
+.v-slide-group__prev {
+  left: calc(var(--button-size) * -1);
+
+  @include media(md-and-up) {
+    left: calc(var(--button-size) * -2);
+  }
+
+  &:hover {
+    transform: translateX(-5px);
+  }
+}
+
+.v-slide-group__next {
+  right: calc(var(--button-size) * -1);
+
+  @include media(md-and-up) {
+    right: calc(var(--button-size) * -2);
+  }
+
+  &:hover {
+    transform: translateX(5px);
+  }
+}
+
+// hack to ensure it's more important than vuetify
+body {
+  .v-container {
+    @include media(md) {
+      max-width: 860px;
+    }
+    @include media(lg) {
+      max-width: 1150px;
+    }
+    @include media(xl) {
+      max-width: 1450px;
+    }
+    @include media(xxl) {
+      max-width: 1710px;
+    }
+  }
+}
+html.v-overlay-scroll-blocked {
+  height: unset !important;
+}
