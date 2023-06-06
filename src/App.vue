@@ -2,7 +2,7 @@
 import { ref, computed, watchEffect, watch, inject } from 'vue'
 import HeaderContainer from '@/components/Header/HeaderContainer.vue'
 import FooterContainer from '@/components/Footer/FooterContainer.vue'
-import preloader from '@/components/base/basePreloader.vue'
+import preloader from '@/components/base/BasePreloader.vue'
 import { useGeneralStore } from '@/stores/general'
 import { useRoute } from 'vue-router'
 
