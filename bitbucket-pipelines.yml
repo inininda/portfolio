@@ -1,0 +1,96 @@
+image: node:16.13.0
+
+definitions:
+  steps:
+    - step: &setup-prepare-deploy-staging
+        name: 'Setup, Prepare, Deploy'
+        script:
+          # Setup (Get Data Files from S3)
+          - apt-get update && apt-get install -y python3-pip
+          - pip3 install -U awscliv2
+          - awsv2 --install
+          - awsv2 --configure default $AWS_ACCESS_KEY_ID $AWS_SECRET_ACCESS_KEY
+          - awsv2 configure set default.region $AWS_DEFAULT_REGION
+          # TODO: Uncomment after final tests
+          # - rm -r src/contracts
+          # - mkdir src/contracts
+          # - awsv2 s3 cp $S3_DATA_BUCKET_URI/IORides src/contracts
+          # - awsv2 s3 cp $S3_DATA_BUCKET_URI/addresses.json src/contracts
+          - awsv2 s3 cp $S3_DATA_BUCKET_URI/whitelistee.json src/assets/data
+          # Prepare Project (Dependencies, Lint, Generate)
+          - yarn install
+          - yarn run lint
+          - yarn run build:staging
+          # Deploy (Upload to S3, Invalidate Cloudfront cache)
+          - pipe: atlassian/aws-s3-deploy:1.1.0
+            variables:
+              AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+              AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+              S3_BUCKET: $S3_BUCKET
+              LOCAL_PATH: 'dist'
+          - pipe: atlassian/aws-cloudfront-invalidate:0.6.0
+            variables:
+              AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+              AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+              DISTRIBUTION_ID: $CF_DISTRIBUTION_ID
+        caches:
+          - node
+          - pip
+
+    - step: &setup-prepare-deploy-production
+        name: 'Setup, Prepare, Deploy'
+        script:
+          # Setup (Get Data Files from S3)
+          - apt-get update && apt-get install -y python3-pip
+          - pip3 install -U awscliv2
+          - awsv2 --install
+          - awsv2 --configure default $AWS_ACCESS_KEY_ID $AWS_SECRET_ACCESS_KEY
+          - awsv2 configure set default.region $AWS_DEFAULT_REGION
+          # TODO: Uncomment after final tests
+          # - rm -r src/contracts
+          # - mkdir src/contracts
+          # - awsv2 s3 cp $S3_DATA_BUCKET_URI/IORides src/contracts
+          # - awsv2 s3 cp $S3_DATA_BUCKET_URI/addresses.json src/contracts
+          - awsv2 s3 cp $S3_DATA_BUCKET_URI/whitelistee.json src/assets/data
+          # Prepare Project (Dependencies, Lint, Generate)
+          - yarn install
+          - yarn run lint
+          - yarn run build
+          # Deploy (Upload to S3, Invalidate Cloudfront cache)
+          - pipe: atlassian/aws-s3-deploy:1.1.0
+            variables:
+              AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+              AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+              S3_BUCKET: $S3_BUCKET
+              LOCAL_PATH: 'dist'
+          - pipe: atlassian/aws-cloudfront-invalidate:0.6.0
+            variables:
+              AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+              AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+              DISTRIBUTION_ID: $CF_DISTRIBUTION_ID
+        caches:
+          - node
+          - pip
+
+pipelines:
+  branches:
+    master:
+      - step:
+          name: 'Copy .env'
+          script:
+            - cp .env.production .env
+          artifacts:
+            - .env
+      - step:
+          <<: *setup-prepare-deploy-production
+          deployment: Production
+    develop:
+      - step:
+          name: 'Copy .env'
+          script:
+            - cp .env.staging .env
+          artifacts:
+            - .env
+      - step:
+          <<: *setup-prepare-deploy-staging
+          deployment: Staging

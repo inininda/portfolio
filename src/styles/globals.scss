@@ -1,0 +1,474 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.visuallyhidden,
+.vh {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  // when meta wallet popup appears, it added position fixed to html
+  // it needs width 100% so that it doesn't collapse
+  width: 100%;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  // overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-overflow-scrolling: touch;
+}
+html.fixed,
+body.fixed {
+  position: fixed;
+  overflow: hidden;
+  overscroll-behavior: none;
+  overscroll-behavior-y: contain;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html.no-scroll {
+  body {
+    height: 100%;
+    overflow: hidden;
+  }
+  overflow: hidden;
+}
+
+html,
+body,
+.v-application {
+  // somehow there is an injection of html font-family
+  // TODO: find where is it from, then remove !important
+  font-family: Work Sans, sans-serif;
+}
+
+body.bubble-rider-page {
+  .v-application {
+    background-image: url('../assets/images/bubble-rider/rider-bg.png') !important;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  // modal stylings are here because VDialog is positioned outside "div#app"
+  .not-support-safari__modal {
+    height: 315px;
+
+    .v-overlay__content {
+      box-shadow: none;
+    }
+
+    .v-overlay__scrim {
+      opacity: 0;
+      background: linear-gradient(0deg, rgba(41, 18, 105, 0.35), rgba(41, 18, 105, 0.35)),
+        linear-gradient(180deg, rgba(13, 13, 13, 0.9) 0%, rgba($black, 0.5) 100%, rgba($black, 0.5) 100%);
+    }
+
+    .modal-title {
+      text-transform: uppercase;
+    }
+
+    .button {
+      padding: 0 24px;
+    }
+  }
+}
+
+body.overlap-with-footer {
+  .bubble-rider__footer {
+    background: linear-gradient(0deg, #130025 0%, rgba(19, 0, 37, 0.9) 58.33%, rgba(19, 0, 37, 0) 100%);
+  }
+}
+
+.v-application {
+  background: linear-gradient(180deg, $lightPink100 0%, $orange100 100%);
+}
+
+ul {
+  list-style: none;
+}
+
+b {
+  font-weight: 700 !important;
+}
+
+.text--title {
+  font-family: $title-font;
+}
+
+.font-weight-semi-bold {
+  font-weight: 600 !important;
+}
+
+.text--warning {
+  color: $warning;
+}
+
+.text--success {
+  color: $success;
+}
+
+.text--grey {
+  color: $neutral-blue-grey-6;
+}
+
+.text--card-grey {
+  color: $card-grey-text;
+}
+
+.text--small {
+  font-size: 0.75rem;
+}
+
+ul.list-disc {
+  list-style: disc;
+}
+
+* {
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+    background-color: $neutral-blue-grey-6;
+  }
+}
+
+// overwrite mdi style
+[class^='icon-'],
+[class*=' icon-'] {
+  &:before {
+    font-family: '#{$icomoon-font-family}' !important;
+  }
+}
+
+.v-alert {
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  min-width: 50%;
+  z-index: 2401;
+}
+
+.v-btn--plain {
+  &:not(.v-btn--active):not(.v-btn--loading):not(:focus):not(:hover),
+  &:not(.v-btn--active):not(.v-btn--loading):focus {
+    .v-btn__content {
+      opacity: 1;
+    }
+  }
+
+  &:not(.v-btn--active):not(.v-btn--loading) {
+    .v-btn__content {
+      opacity: 0.8;
+    }
+  }
+}
+.v-btn--fab.v-size--default {
+  @include mobile {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.hide-mobile {
+  @include mobile {
+    display: none !important;
+  }
+}
+/**
+* START: Transitions
+*/
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s $default-cubic-bezier;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.slowfade-enter-active,
+.slowfade-leave-active {
+  transition: opacity 0.6s $default-cubic-bezier;
+}
+
+.slowfade-enter-from,
+.slowfade-leave-to {
+  opacity: 0;
+}
+
+.fadeout-leave-active {
+  transition: opacity 0.6s $default-cubic-bezier;
+}
+
+.fadeout-leave-to {
+  opacity: 0;
+}
+
+.slide-left-enter-active,
+.slide-left-leave-active {
+  transition: opacity 0.5s cubic-bezier(0, 0, 0, 1), transform 0.5s cubic-bezier(0, 0, 0, 1);
+}
+
+.slide-left-enter-from,
+.slide-left-leave-to {
+  opacity: 0;
+  transform: translateX(100vw);
+}
+
+.slide-up-enter-active,
+.slide-up-leave-active {
+  transition: all 0.5s ease-in-out;
+}
+
+.slide-up-enter-from {
+  opacity: 0;
+  transform: translateY(100vh);
+}
+
+.slide-up-leave-to {
+  opacity: 0;
+  transform: translateY(-100vh);
+}
+
+.slide-down-enter-active,
+.slide-down-leave-active {
+  transition: all 0.5s ease-in-out;
+}
+
+.slide-down-enter-from {
+  opacity: 0;
+  transform: translateY(-100vh);
+}
+
+.slide-down-leave-to {
+  opacity: 0;
+  transform: translateY(100vh);
+}
+
+@keyframes floating-item {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 40px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}
+.btn-orange {
+  background: #d09960 !important;
+}
+.common-button {
+  height: 54px;
+  color: #413605;
+  letter-spacing: .5px;
+  text-transform: capitalize;
+  background-color: #f7cb45;
+  border: 1px solid #413605;
+  border-radius: 50px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 0 32px;
+  font-weight: 600;
+  line-height: 54px;
+  text-decoration: none;
+  transition: box-shadow .25s cubic-bezier(.645,.045,.355,1),transform .25s cubic-bezier(.645,.045,.355,1);
+  display: inline-block;
+  box-shadow: 3px 3px #413605
+}
+
+.common-button:hover {
+  transform: translate(-4px,-4px);
+  box-shadow: 6px 6px #413605
+}
+.sage-button, .site {
+  background-color: $sage !important;
+}
+.github {
+  background-color: #6F8BD5 !important;
+}
+/**
+* END: Transitions
+*/
+
+// Connect wallet modal style
+:root {
+  /* CUSTOMIZE THE COLOR  PALLETTE */
+  --onboard-white: #241d32;
+  --onboard-modal-color: #cfd4e1;
+  // --onboard-black: #241d32;
+  --onboard-gray-700: #cfd4e1;
+  --onboard-gray-600: #b5bbc6;
+  --onboard-gray-500: #e0e4ee;
+  --onboard-gray-300: #cfd4e1;
+  --onboard-primary-100: #49566c;
+  --onboard-primary-400: #2d305f;
+  --account-center-maximized-upper-background: #a6abba;
+  --account-center-minimized-upper-background: #a6abba;
+  --account-center-maximized-app-info-section: #2d305f;
+  --account-center-minimized-app-info-section: #2d305f;
+  --account-center-maximized-network-section: #cfd4e1;
+  --account-center-maximized-network-selector-color: #cfd4e1;
+  --account-center-minimized-address-color: #e0e4ee;
+  --account-center-maximized-address-color: #e0e4ee;
+
+  /* CUSTOMIZE ACCOUNT CENTER STACK POSITIONING*/
+  --account-center-z-index: 99;
+
+  /* CUSTOMIZE SECTIONS OF THE CONNECT MODAL */
+  --onboard-connect-content-width: 520px;
+  --onboard-connect-content-height: 410px;
+  // --onboard-wallet-columns
+  // --onboard-connect-sidebar-background
+  // --onboard-connect-sidebar-color
+  // --onboard-connect-sidebar-progress-background
+  // --onboard-connect-sidebar-progress-color
+  // --onboard-connect-header-background
+  --onboard-connect-header-color: white;
+  // --onboard-link-color
+  // --onboard-close-button-background
+  // --onboard-close-button-color
+  // --onboard-checkbox-background
+  // --onboard-checkbox-color
+  --onboard-wallet-button-background: rgba(27, 22, 36, 0.65) !important;
+  --onboard-wallet-button-background-hover: transparent !important;
+  --onboard-wallet-button-color: white !important;
+  // --onboard-wallet-button-color-hover: black !important;
+  --onboard-wallet-button-border-color: #49566c;
+  --onboard-wallet-button-border-radius: 7px;
+  --onboard-wallet-app-icon-border-color: transparent;
+
+  // /* CUSTOMIZE THE CONNECT MODAL */
+  // --onboard-modal-border-radius
+  // --onboard-modal-backdrop
+  // --onboard-modal-box-shadow
+
+  /* CUSTOMIZE THE ACTION REQUIRED MODAL */
+  // --onboard-action-required-modal-background
+
+  /* FONTS */
+  // --onboard-font-family-normal: Sofia Pro;
+  // --onboard-font-family-semibold: Sofia Pro Semibold;
+  // --onboard-font-family-light: Sofia Pro Light;
+
+  // --onboard-font-size-1: 3rem;
+  // --onboard-font-size-2: 2.25rem;
+  // --onboard-font-size-3: 1.5rem;
+  // --onboard-font-size-4: 1.25rem;
+  // --onboard-font-size-5: 1rem;
+  // --onboard-font-size-6: 0.875rem;
+  // --onboard-font-size-7: 0.75rem;
+
+  // /* SPACING */
+  // --onboard-spacing-1: 3rem;
+  // --onboard-spacing-2: 2rem;
+  // --onboard-spacing-3: 1.5rem;
+  // --onboard-spacing-4: 1rem;
+  // --onboard-spacing-5: 0.5rem;
+
+  // /* BORDER RADIUS */
+  // --onboard-border-radius-1: 24px;
+  // --onboard-border-radius-2: 20px;
+  // --onboard-border-radius-3: 16px;
+
+  // /* SHADOWS */
+  // --onboard-shadow-0: none;
+  // --onboard-shadow-1: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  // --onboard-shadow-2: inset 0px -1px 0px rgba(0, 0, 0, 0.1);
+
+  // /* MAIN MODAL POSITIONING */
+  // --onboard-modal-z-index
+  // --onboard-modal-top
+  // --onboard-modal-bottom
+  // --onboard-modal-right
+  // --onboard-modal-left
+
+  // /* HD WALLET ACCOUNT SELECT MODAL POSITIONING */
+  // --onboard-account-select-modal-z-index
+  // --onboard-account-select-modal-top
+  // --onboard-account-select-modal-bottom
+  // --onboard-account-select-modal-right
+  // --onboard-account-select-modal-left
+
+  // /* MAGIC WALLET MODAL POSITIONING */
+  // --onboard-login-modal-z-index
+  // --onboard-login-modal-top
+  // --onboard-login-modal-bottom
+  // --onboard-login-modal-right
+  // --onboard-login-modal-left
+
+  // /* MAGIC WALLET MODAL POSITIONING */
+  // --onboard-login-modal-z-index
+  // --onboard-login-modal-top
+  // --onboard-login-modal-bottom
+  // --onboard-login-modal-right
+  // --onboard-login-modal-left
+
+  // /* HARDWARE WALLET STYLES  */
+  // /* *if not set will fallback to variables with `--onboard` prefix shown above */
+
+  // /* COLORS */
+  // --account-select-modal-white: white;
+  // --account-select-modal-black: black;
+  // --account-select-modal-primary-100: #eff1fc;
+  // --account-select-modal-primary-200: #d0d4f7;
+  // --account-select-modal-primary-300: #b1b8f2;
+  // --account-select-modal-primary-500: #6370e5;
+  // --account-select-modal-primary-600: #454ea0;
+  // --account-select-modal-gray-100: #ebebed;
+  // --account-select-modal-gray-200: #c2c4c9;
+  // --account-select-modal-gray-300: #999ca5;
+  // --account-select-modal-gray-500: #33394b;
+  // --account-select-modal-gray-700: #1a1d26;
+  // --account-select-modal-danger-500: #ff4f4f;
+
+  // /* FONTS */
+  // --account-select-modal-font-family-normal: Sofia Pro;
+  // --account-select-modal-font-family-light: Sofia Pro Light;
+  // --account-select-modal-font-size-5: 1rem;
+  // --account-select-modal-font-size-7: .75rem;
+  // --account-select-modal-font-line-height-1: 24px;
+
+  // /* SPACING */
+  // --account-select-modal-margin-4: 1rem;
+  // --account-select-modal-margin-5: 0.5rem;
+
+  /* OTHERS */
+  --gutter-width: 15px;
+  --button-size: 24px;
+
+  /* COLOURS */
+  --neutral-grey-4: #e3e3e3;
+  --neutral-blue-grey-5: #a6abba;
+  --card-staked-bg: #2d2d57;
+
+  --white: #ffffff;
+}
