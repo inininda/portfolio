@@ -1,8 +1,8 @@
 <script setup>
 import { inject, computed, ref, onMounted } from 'vue'
 import { useGeneralStore } from '@/stores/general'
-import LandingHome from '@/components/landing/LandingHome.vue'
-import LandingAbout from '@/components/landing/LandingAbout.vue'
+import LandingHome from '@/components/Landing/LandingHome.vue'
+import LandingAbout from '@/components/Landing/LandingAbout.vue'
 import LandingProject from '@/components/Landing/LandingProject.vue'
 import LandingContact from '@/components/Landing/LandingContact.vue'
 const generalStore = useGeneralStore()
