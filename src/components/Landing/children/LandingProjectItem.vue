@@ -30,7 +30,7 @@ transition(
       .project-item-img(
         ref="itemElementImg"
       )
-        VImg(
+        img(
           :src="projectItem.banner"
         )
       .project-item-title
@@ -74,6 +74,9 @@ transition(
   .project-item-img {
     max-height: 300px;
     filter: drop-shadow(2px 4px 6px black);
+    img {
+      max-height: 300px;
+    }
   }
   &:nth-last-of-type(odd) {
     flex-direction: row;
@@ -125,6 +128,9 @@ transition(
     gap: 20px;
     .project-item-img {
       max-height: 200px;
+      img {
+        max-height: 200px;
+      }
     }
     .project-item-title {
       font-size: 24px;
@@ -146,7 +152,7 @@ transition(
     }
     .project-item-img {
       max-height: unset;
-      .v-img {
+      img {
         width: 90%;
         height: 100%;
         margin-left: auto;
