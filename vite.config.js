@@ -89,7 +89,6 @@ export default ({ mode }) => {
   if (process.env.VITE_APP_ENV === 'production') {
     config.esbuild = {}
     config.esbuild.drop = ['console', 'debugger']
-    config.base = 'https://inininda.github.io/portfolio/'
   }
 
   return config
