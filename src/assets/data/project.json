@@ -1,5 +1,94 @@
 [
   {
+    "name": "Carnival Prelaunch",
+    "shortDescription": "<p>Carnival PreLaunch is an exciting online platform designed to engage eager gaming enthusiasts in anticipation of the highly-anticipated release of Imaginary Ones' carnival game. Visitors to the site can register and embark on a thrilling journey to claim enticing chest rewards.</p>",
+    "description": "<p>Carnival PreLaunch is an exciting online platform designed to engage eager gaming enthusiasts in anticipation of the highly-anticipated release of Imaginary Ones' carnival game. Visitors to the site can register and embark on a thrilling journey to claim enticing chest rewards.</p><p>Upon signing up, users have the opportunity to connect their Discord accounts to the Imaginary Ones' Discord channel, unlocking the door to exclusive benefits. The initial connection rewards them with an early bird common BUBBLE$ chest, setting the stage for an immersive pre-launch experience.</p><p>But the excitement doesn't end there. Carnival PreLaunch encourages users to spread the word and extend the carnival magic to others. To claim the coveted early bird epic BUBBLE$ chest, users are required to extend invitations to at least five friends or fellow gaming enthusiasts. This not only intensifies the anticipation but also fosters a sense of community among users.</p>",
+    "technology": ["Nuxt3", "windicss", "vuetify"],
+    "socialMedia": "",
+    "site": "https://carnival-prelaunch.imaginaryones.com/",
+    "github": "",
+    "status": "active",
+    "banner": "images/project/CarnivalPrelaunch/carnivalprelaunch-1.png",
+    "imgGallery": [
+      "images/project/CarnivalPrelaunch/carnivalprelaunch-1.png",
+      "images/project/CarnivalPrelaunch/carnivalprelaunch-2.png",
+      "images/project/CarnivalPrelaunch/carnivalprelaunch-3.png",
+      "images/project/CarnivalPrelaunch/carnivalprelaunch-4.png",
+      "images/project/CarnivalPrelaunch/carnivalprelaunch-5.png",
+      "images/project/CarnivalPrelaunch/carnivalprelaunch-6.png",
+      "images/project/CarnivalPrelaunch/carnivalprelaunch-7.png",
+      "images/project/CarnivalPrelaunch/carnivalprelaunch-8.png",
+      "images/project/CarnivalPrelaunch/carnivalprelaunch-9.png"
+    ],
+    "videoGallery": []
+  },
+  {
+    "name": "Imaginary Rides",
+    "shortDescription": "<p>The Imaginary Rides website is a dedicated platform where users can explore and engage with the latest NFT collection from Imaginary Ones. With the features I developed, such as the immersive three.js-powered homepage and the user-friendly deposit page with differentiated whitelisting options, users can fully immerse themselves in the world of Imaginary Rides and secure their place in this extraordinary NFT experience.</p>",
+    "description": "<p>The Imaginary Rides website is a dedicated platform where users can explore and engage with the latest NFT collection from Imaginary Ones. With the features I developed, such as the immersive three.js-powered homepage and the user-friendly deposit page with differentiated whitelisting options, users can fully immerse themselves in the world of Imaginary Rides and secure their place in this extraordinary NFT experience.</p><p>In the development of the Imaginary Rides website, I had the opportunity to contribute to several key features that enhance the user experience and bring the Imaginary Rides NFT collection to life.</p><p>One of the significant features I worked on was the homepage using three.js, an innovative technology that allows for immersive and interactive experiences. Within the homepage, users will encounter three distinct parts representing Imaginary Rides Land, Imaginary Rides Air, and Imaginary Rides Sea. Each section showcases the unique NFT collections associated with these themes, giving users a glimpse into the captivating world of Imaginary Rides.</p><p>Additionally, I played a pivotal role in the development of the deposit page. This page provides users with a convenient platform to secure their spot in the Imaginary Rides NFT collection by making an ETH payment based on the desired quantity of spots they wish to claim. The deposit page features two main sections: one for users whitelisted in the FCFS Whitelist, and another for those whitelisted in the VIP Whitelist.</p><p>For users whitelisted in the FCFS Whitelist, spots are limited to 1000 on a first-come, first-serve basis. If all 1000 spots are filled, users will still have the option to deposit for a non-guaranteed spot. On the other hand, VIP whitelist participants are guaranteed their spots, regardless of availability, and can also opt to deposit for non-guaranteed spots. Non-guaranteed spots will be automatically upgraded to guaranteed spots if there are still 10,000 total spots available for deposit.</p>",
+    "technology": [
+      "vue",
+      "windicss",
+      "vuetify",
+      "vite",
+      "jest",
+      "ethers",
+      "Three js"
+    ],
+    "socialMedia": "",
+    "site": "https://rides.imaginaryones.com/",
+    "github": "",
+    "status": "active",
+    "banner": "images/project/ImaginaryRides/imaginaryrides-1.png",
+    "imgGallery": [
+      "images/project/ImaginaryRides/imaginaryrides-1.png",
+      "images/project/ImaginaryRides/imaginaryrides-2.png",
+      "images/project/ImaginaryRides/imaginaryrides-3.png",
+      "images/project/ImaginaryRides/imaginaryrides-4.png",
+      "images/project/ImaginaryRides/imaginaryrides-5.png",
+      "images/project/ImaginaryRides/imaginaryrides-6.png",
+      "images/project/ImaginaryRides/imaginaryrides-7.png",
+      "images/project/ImaginaryRides/imaginaryrides-8.png",
+      "images/project/ImaginaryRides/imaginaryrides-9.png",
+      "images/project/ImaginaryRides/imaginaryrides-10.png",
+      "images/project/ImaginaryRides/imaginaryrides-11.png"
+    ],
+    "videoGallery": []
+  },
+  {
+    "name": "Imaginary World",
+    "shortDescription": "<p>Welcome to the Imaginary World website, where enthusiasts can stake their Imaginary Ones NFT Collection, including the captivating Imaginary Rides NFT Collection. As a valued member of the development team, I am proud to have contributed to several exciting features that enhance the user experience on this platform.</p>",
+    "description": "<p>Welcome to the Imaginary World website, where enthusiasts can stake their Imaginary Ones NFT Collection, including the captivating Imaginary Rides NFT Collection. As a valued member of the development team, I am proud to have contributed to several exciting features that enhance the user experience on this platform.</p><p>One of the features I helped develop is the onboard connect wallet modal, which provides a seamless and secure connection between users and their preferred wallet providers. This feature simplifies the process of accessing and managing NFTs, ensuring a smooth and user-friendly onboarding experience.</p><p>To keep users informed and engaged, I also worked on the announcement feature within the user dashboard. This allows important updates, news, and events to be communicated directly to users, ensuring they stay up to date with the latest developments in the Imaginary World community.<p><p>Additionally, I implemented staking and unstaking confirmation modals, success modals, and error modals. These pop-up notifications provide users with clear and concise information regarding their staking actions, ensuring a transparent and seamless staking process.</p><p>The inventory page, another feature I helped build, offers users a comprehensive overview of their NFT holdings. This page allows users to easily navigate and manage their collection, providing a convenient and organized way to explore their Imaginary Ones NFTs and Imaginary Rides NFTs.</p><p>The reward and staking page tabs provide users with a dedicated space to monitor their staking progress and potential rewards. These tabs offer valuable insights into users' participation in the staking program, allowing them to track their achievements and enjoy the benefits of being part of the Imaginary World ecosystem.</p><p>In the reward page cards, I implemented visually appealing designs that showcase the rewards users can earn through their staking activities. These cards provide users with enticing previews of the rewards they can unlock, creating excitement and motivation to continue staking.</p><p>To enhance user understanding and engagement, I also worked on information modals and reward filters. These features provide users with additional details about the staking program and allow them to filter and explore specific types of rewards, empowering them to make informed decisions.</p><p>Furthermore, I played a key role in the development of the link and unlink pages, which enable users to conveniently connect and disconnect their wallets. This functionality ensures seamless integration with various wallet providers, providing users with flexibility and ease of use.</p><p>Finally, I assisted in testing the entire website's functionality, ensuring a smooth and error-free user experience. By diligently testing each feature and identifying and resolving any issues, I helped create a reliable platform that users can trust.</p>",
+    "technology": [
+      "vue",
+      "windicss",
+      "vuetify",
+      "vite",
+      "jest",
+      "ethers",
+      "merkletree"
+    ],
+    "socialMedia": "",
+    "site": "http://world.imaginaryones.com/",
+    "github": "",
+    "status": "active",
+    "banner": "images/project/ImaginaryWorld/imaginaryworld-1.png",
+    "imgGallery": [
+      "images/project/ImaginaryWorld/imaginaryworld-1.png",
+      "images/project/ImaginaryWorld/imaginaryworld-2.png",
+      "images/project/ImaginaryWorld/imaginaryworld-3.png",
+      "images/project/ImaginaryWorld/imaginaryworld-4.png",
+      "images/project/ImaginaryWorld/imaginaryworld-5.png",
+      "images/project/ImaginaryWorld/imaginaryworld-6.png",
+      "images/project/ImaginaryWorld/imaginaryworld-7.png",
+      "images/project/ImaginaryWorld/imaginaryworld-8.png",
+      "images/project/ImaginaryWorld/imaginaryworld-9.png",
+      "images/project/ImaginaryWorld/imaginaryworld-10.png",
+      "images/project/ImaginaryWorld/imaginaryworld-11.png"
+    ],
+    "videoGallery": []
+  },
+  {
     "name": "Bookgallery",
     "shortDescription": "<p>Bookgallery is a dynamic website that offers a unique reading and writing experience. As a user, you have the opportunity to explore a vast library of novels written by talented authors.</p>",
     "description": "<p>Bookgallery is a dynamic website that offers a unique reading and writing experience. As a user, you have the opportunity to explore a vast library of novels written by talented authors.</p><p>One of the standout features of Bookgallery is the Paid Story program. For aspiring writers, this feature allows you to not only showcase your creative work but also earn money for your talent. Every time someone reads your novel, you receive compensation, creating a mutually beneficial relationship between authors and readers.</p><p>Bookgallery also provides a platform for publishers to collaborate with writers. Publishers can register and upload novels owned by their writers, expanding their reach and providing an additional avenue for promotion. This collaborative approach fosters a supportive and vibrant community where writers can gain exposure and reach a wider audience.</p><p>To make reading on the go even more convenient, Bookgallery offers a mobile app available for download on Google Play and the App Store. With the app, you can access your favorite novels anytime, anywhere, ensuring that you never have to be without captivating stories at your fingertips.</p><p>But the benefits don't stop there! Bookgallery also offers an affiliate program, allowing users to invite others to join the platform using their unique affiliation code. By sharing Bookgallery with friends and acquaintances, you have the opportunity to earn money through the affiliate program. This incentivizes word-of-mouth promotion and creates a sense of community within the platform.</p><p>Bookgallery is not just a website; it's a thriving ecosystem that supports writers, publishers, and avid readers. Whether you're a passionate storyteller looking to earn from your craft or a voracious reader in search of captivating novels, Bookgallery is the perfect destination to connect, explore, and immerse yourself in the world of literature. Join us today and embark on a journey filled with literary delights!</p>",
@@ -202,72 +291,6 @@
       "images/project/Duckie/duckie-land-11.png",
       "images/project/Duckie/duckie-land-12.png",
       "images/project/Duckie/duckie-land-13.png"
-    ],
-    "videoGallery": []
-  },
-  {
-    "name": "Imaginary World",
-    "shortDescription": "<p>Welcome to the Imaginary World website, where enthusiasts can stake their Imaginary Ones NFT Collection, including the captivating Imaginary Rides NFT Collection. As a valued member of the development team, I am proud to have contributed to several exciting features that enhance the user experience on this platform.</p>",
-    "description": "<p>Welcome to the Imaginary World website, where enthusiasts can stake their Imaginary Ones NFT Collection, including the captivating Imaginary Rides NFT Collection. As a valued member of the development team, I am proud to have contributed to several exciting features that enhance the user experience on this platform.</p><p>One of the features I helped develop is the onboard connect wallet modal, which provides a seamless and secure connection between users and their preferred wallet providers. This feature simplifies the process of accessing and managing NFTs, ensuring a smooth and user-friendly onboarding experience.</p><p>To keep users informed and engaged, I also worked on the announcement feature within the user dashboard. This allows important updates, news, and events to be communicated directly to users, ensuring they stay up to date with the latest developments in the Imaginary World community.<p><p>Additionally, I implemented staking and unstaking confirmation modals, success modals, and error modals. These pop-up notifications provide users with clear and concise information regarding their staking actions, ensuring a transparent and seamless staking process.</p><p>The inventory page, another feature I helped build, offers users a comprehensive overview of their NFT holdings. This page allows users to easily navigate and manage their collection, providing a convenient and organized way to explore their Imaginary Ones NFTs and Imaginary Rides NFTs.</p><p>The reward and staking page tabs provide users with a dedicated space to monitor their staking progress and potential rewards. These tabs offer valuable insights into users' participation in the staking program, allowing them to track their achievements and enjoy the benefits of being part of the Imaginary World ecosystem.</p><p>In the reward page cards, I implemented visually appealing designs that showcase the rewards users can earn through their staking activities. These cards provide users with enticing previews of the rewards they can unlock, creating excitement and motivation to continue staking.</p><p>To enhance user understanding and engagement, I also worked on information modals and reward filters. These features provide users with additional details about the staking program and allow them to filter and explore specific types of rewards, empowering them to make informed decisions.</p><p>Furthermore, I played a key role in the development of the link and unlink pages, which enable users to conveniently connect and disconnect their wallets. This functionality ensures seamless integration with various wallet providers, providing users with flexibility and ease of use.</p><p>Finally, I assisted in testing the entire website's functionality, ensuring a smooth and error-free user experience. By diligently testing each feature and identifying and resolving any issues, I helped create a reliable platform that users can trust.</p>",
-    "technology": [
-      "vue",
-      "windicss",
-      "vuetify",
-      "vite",
-      "jest",
-      "ethers",
-      "merkletree"
-    ],
-    "socialMedia": "",
-    "site": "http://world.imaginaryones.com/",
-    "github": "",
-    "status": "active",
-    "banner": "images/project/ImaginaryWorld/imaginaryworld-1.png",
-    "imgGallery": [
-      "images/project/ImaginaryWorld/imaginaryworld-1.png",
-      "images/project/ImaginaryWorld/imaginaryworld-2.png",
-      "images/project/ImaginaryWorld/imaginaryworld-3.png",
-      "images/project/ImaginaryWorld/imaginaryworld-4.png",
-      "images/project/ImaginaryWorld/imaginaryworld-5.png",
-      "images/project/ImaginaryWorld/imaginaryworld-6.png",
-      "images/project/ImaginaryWorld/imaginaryworld-7.png",
-      "images/project/ImaginaryWorld/imaginaryworld-8.png",
-      "images/project/ImaginaryWorld/imaginaryworld-9.png",
-      "images/project/ImaginaryWorld/imaginaryworld-10.png",
-      "images/project/ImaginaryWorld/imaginaryworld-11.png"
-    ],
-    "videoGallery": []
-  },
-  {
-    "name": "Imaginary Rides",
-    "shortDescription":"<p>The Imaginary Rides website is a dedicated platform where users can explore and engage with the latest NFT collection from Imaginary Ones. With the features I developed, such as the immersive three.js-powered homepage and the user-friendly deposit page with differentiated whitelisting options, users can fully immerse themselves in the world of Imaginary Rides and secure their place in this extraordinary NFT experience.</p>",
-    "description": "<p>The Imaginary Rides website is a dedicated platform where users can explore and engage with the latest NFT collection from Imaginary Ones. With the features I developed, such as the immersive three.js-powered homepage and the user-friendly deposit page with differentiated whitelisting options, users can fully immerse themselves in the world of Imaginary Rides and secure their place in this extraordinary NFT experience.</p><p>In the development of the Imaginary Rides website, I had the opportunity to contribute to several key features that enhance the user experience and bring the Imaginary Rides NFT collection to life.</p><p>One of the significant features I worked on was the homepage using three.js, an innovative technology that allows for immersive and interactive experiences. Within the homepage, users will encounter three distinct parts representing Imaginary Rides Land, Imaginary Rides Air, and Imaginary Rides Sea. Each section showcases the unique NFT collections associated with these themes, giving users a glimpse into the captivating world of Imaginary Rides.</p><p>Additionally, I played a pivotal role in the development of the deposit page. This page provides users with a convenient platform to secure their spot in the Imaginary Rides NFT collection by making an ETH payment based on the desired quantity of spots they wish to claim. The deposit page features two main sections: one for users whitelisted in the FCFS Whitelist, and another for those whitelisted in the VIP Whitelist.</p><p>For users whitelisted in the FCFS Whitelist, spots are limited to 1000 on a first-come, first-serve basis. If all 1000 spots are filled, users will still have the option to deposit for a non-guaranteed spot. On the other hand, VIP whitelist participants are guaranteed their spots, regardless of availability, and can also opt to deposit for non-guaranteed spots. Non-guaranteed spots will be automatically upgraded to guaranteed spots if there are still 10,000 total spots available for deposit.</p>",
-    "technology": [
-      "vue",
-      "windicss",
-      "vuetify",
-      "vite",
-      "jest",
-      "ethers",
-      "Three js"
-    ],
-    "socialMedia": "",
-    "site": "https://rides.imaginaryones.com/",
-    "github": "",
-    "status": "active",
-    "banner": "images/project/ImaginaryRides/imaginaryrides-1.png",
-    "imgGallery": [
-      "images/project/ImaginaryRides/imaginaryrides-1.png",
-      "images/project/ImaginaryRides/imaginaryrides-2.png",
-      "images/project/ImaginaryRides/imaginaryrides-3.png",
-      "images/project/ImaginaryRides/imaginaryrides-4.png",
-      "images/project/ImaginaryRides/imaginaryrides-5.png",
-      "images/project/ImaginaryRides/imaginaryrides-6.png",
-      "images/project/ImaginaryRides/imaginaryrides-7.png",
-      "images/project/ImaginaryRides/imaginaryrides-8.png",
-      "images/project/ImaginaryRides/imaginaryrides-9.png",
-      "images/project/ImaginaryRides/imaginaryrides-10.png",
-      "images/project/ImaginaryRides/imaginaryrides-11.png"
     ],
     "videoGallery": []
   },
