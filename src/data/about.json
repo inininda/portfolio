@@ -1,0 +1,277 @@
+{
+  "personal": {
+    "name": "Ninda Mawarni",
+    "title": "Fullstack Web3 Developer",
+    "subtitle": "D",
+    "tagline": "Turning coffee into code, one commit at a time ☕️",
+    "location": "Jakarta, Indonesia",
+    "email": "mawarnininda@gmail.com",
+    "phone": "+62 81-3154-75514",
+    "website": "https://inininda.com",
+    "avatar": "/images/avatar.jpg",
+    "resumeUrl": "/documents/nindamawarni-resume.pdf"
+  },
+  "bio": {
+    "short": "Passionate full-stack developer with 5 years of web development experience and 3+ years specializing in Web3. I love solving problems through various approaches and am always eager to learn new technologies.",
+    "long": "I'm a passionate full-stack developer with 5 years of experience across 3 companies, specializing in Web3 technologies for the past 3+ years. My journey began as a web developer handling diverse clients and building 10+ websites from scratch using HTML, PHP, and CodeIgniter.\n\nMy Web3 journey started at a sister company where I worked on a Play-to-Earn game concept, handling backend logic for NFT character gameplay and reward systems. This experience introduced me to blockchain gaming and tokenomics.\n\nI then transitioned to my current company, shifting from PHP to JavaScript-based technologies (Vue.js and Node.js). Starting as a frontend developer, I quickly expanded my skills to smart contract development, assisting in NFT collection creation. After proving my capabilities, my boss entrusted me with building NFT and token smart contracts from scratch.\n\nNow working full-stack for 2+ years, I've earned recognition as the 'master of optimization' for my code efficiency improvements. Currently, I'm working on an AI chat platform where users interact with AI-generated imagination characters, handling both frontend and backend development.\n\nI have extensive experience with modern tech stacks including React.js, Vue.js, Nuxt.js, and Three.js for frontend; Nest.js, Node.js, and PHP for backend; and comprehensive blockchain development using Solidity, Viem, Ethers.js, and cross-chain solutions with LayerZero. I'm proficient in both Solana and Ethereum ecosystems, with expertise in smart contract development, testing with Jest and Mocha, and database management with MySQL and Supabase. I'm driven by optimization challenges and creating efficient, scalable solutions across traditional web, blockchain, and AI applications.",
+    "highlights": [
+      "🚀 Built 10+ websites from scratch for diverse clients",
+      "🎮 Developed backend logic for Play-to-Earn NFT game",
+      "⛓️ Created NFT and token smart contracts from scratch",
+      "⚡ Recognized as 'master of optimization' by management",
+      "🤖 Built AI chat platform with imagination characters",
+      "🔄 Successfully transitioned from PHP to JavaScript ecosystem"
+    ]
+  },
+  "technicalSkills": {
+    "frontend": {
+      "title": "Frontend Development",
+      "technologies": ["Vue.js", "React.js", "Nuxt.js", "Three.js", "Vite"],
+      "icon": "🎨"
+    },
+    "backend": {
+      "title": "Backend Development",
+      "technologies": ["Node.js", "Nest.js", "PHP", "MySQL", "Supabase", "PostgreSQL"],
+      "icon": "⚙️"
+    },
+    "blockchain": {
+      "title": "Blockchain & Web3",
+      "technologies": [
+        "Solidity",
+        "Ethers.js",
+        "Viem",
+        "Solana Web3.js",
+        "LayerZero"
+      ],
+      "icon": "⛓️"
+    },
+    "smartContracts": {
+      "title": "Smart Contract Development",
+      "technologies": ["Solidity", "Remix IDE", "Hardhat", "Viem", "Ethers.js"],
+      "icon": "📜"
+    },
+    "testing": {
+      "title": "Testing & Tools",
+      "technologies": ["Jest", "Mocha", "Remix IDE", "Hardhat", "Git"],
+      "icon": "🧪"
+    },
+    "crossChain": {
+      "title": "Cross-chain Development",
+      "technologies": ["LayerZero", "Solana", "Ethereum"],
+      "icon": "🌉"
+    }
+  },
+  "journey": {
+    "title": "My Coding Journey",
+    "description": "From curious beginner to passionate full-stack developer",
+    "milestones": [
+      {
+        "year": "2020",
+        "title": "First Web Developer Job",
+        "description": "Started as web developer handling diverse clients and building websites from scratch",
+        "icon": "💼",
+        "emotion": "excited"
+      },
+      {
+        "year": "2021",
+        "title": "Built 10+ Websites",
+        "description": "Successfully delivered 10+ custom websites using HTML, PHP, and CodeIgniter",
+        "icon": "🌐",
+        "emotion": "accomplished"
+      },
+      {
+        "year": "2021",
+        "title": "Web3 Gaming Entry",
+        "description": "Joined sister company to work on Play-to-Earn game backend and NFT character logic",
+        "icon": "🎮",
+        "emotion": "curious"
+      },
+      {
+        "year": "2022",
+        "title": "JavaScript Transition",
+        "description": "Moved to current company, transitioned from PHP to Vue.js and Node.js stack",
+        "icon": "🔄",
+        "emotion": "challenged"
+      },
+      {
+        "year": "2023",
+        "title": "Smart Contract Developer",
+        "description": "Learned smart contract development and built NFT/token contracts from scratch",
+        "icon": "⛓️",
+        "emotion": "amazed"
+      },
+      {
+        "year": "2025",
+        "title": "Master of Optimization",
+        "description": "Became full-stack developer and earned recognition for code optimization skills",
+        "icon": "⚡",
+        "emotion": "proud"
+      },
+      {
+        "year": "2025",
+        "title": "AI Platform Developer",
+        "description": "Currently building AI chat platform with imagination characters, full-stack role",
+        "icon": "🤖",
+        "emotion": "motivated"
+      }
+    ]
+  },
+  "values": [
+    {
+      "title": "Clean Code",
+      "description": "I believe code should be readable, maintainable, and self-documenting",
+      "icon": "✨",
+      "examples": [
+        "Meaningful variable names",
+        "Single responsibility principle",
+        "Comprehensive testing"
+      ]
+    },
+    {
+      "title": "Continuous Learning",
+      "description": "Technology evolves rapidly, and I'm committed to staying current",
+      "icon": "📚",
+      "examples": [
+        "Daily coding practice",
+        "Tech blog reading",
+        "Conference attendance"
+      ]
+    },
+    {
+      "title": "User-Centric Design",
+      "description": "Every line of code should ultimately serve the end user's needs",
+      "icon": "👥",
+      "examples": [
+        "Performance optimization",
+        "Accessibility compliance",
+        "Intuitive interfaces"
+      ]
+    },
+    {
+      "title": "Collaboration",
+      "description": "Great software is built by great teams working together",
+      "icon": "🤝",
+      "examples": ["Code reviews", "Knowledge sharing", "Pair programming"]
+    }
+  ],
+  "interests": [
+    {
+      "category": "Technology",
+      "items": [
+        {
+          "name": "Frontend Development",
+          "description": "Creating beautiful, responsive user interfaces with React, Vue.js, and modern frameworks",
+          "icon": "🎨"
+        },
+        {
+          "name": "Backend Development",
+          "description": "Building robust APIs and server-side logic with Node.js, Nest.js, and PHP",
+          "icon": "⚙️"
+        },
+        {
+          "name": "Web3 & Blockchain",
+          "description": "Expert in blockchain integration, smart contract development and NFT/token creation",
+          "icon": "⛓️"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "description": "Integrating AI capabilities into web applications and exploring ML applications",
+          "icon": "🤖"
+        }
+      ]
+    },
+    {
+      "category": "Hobbies",
+      "items": [
+        {
+          "name": "Code Optimization",
+          "description": "Finding efficient solutions and improving code performance",
+          "icon": "⚡"
+        },
+        {
+          "name": "Learning New Tech",
+          "description": "Constantly exploring emerging technologies and frameworks",
+          "icon": "📚"
+        },
+        {
+          "name": "Problem Solving",
+          "description": "Tackling complex challenges through various approaches",
+          "icon": "🧩"
+        },
+        {
+          "name": "Coffee & Coding",
+          "description": "Turning coffee into code, one commit at a time",
+          "icon": "☕"
+        }
+      ]
+    }
+  ],
+  "workStyle": {
+    "environment": "I thrive in collaborative environments where ideas flow freely and everyone's input is valued.",
+    "approach": "I prefer an iterative approach to development, with regular feedback loops and continuous improvement.",
+    "communication": "I believe in clear, honest communication and keeping stakeholders informed throughout the development process.",
+    "problemSolving": "I tackle complex problems by breaking them down into smaller, manageable pieces and building solutions incrementally.",
+    "preferences": [
+      "Agile/Scrum methodologies",
+      "Test-driven development",
+      "Code reviews and pair programming",
+      "Documentation and knowledge sharing",
+      "Remote-friendly collaboration tools"
+    ]
+  },
+  "funFacts": [
+    {
+      "fact": "I've built 10+ websites from scratch across different industries",
+      "icon": "🌐",
+      "category": "coding"
+    },
+    {
+      "fact": "Successfully transitioned from PHP to JavaScript ecosystem in 6 months",
+      "icon": "🔄",
+      "category": "learning"
+    },
+    {
+      "fact": "My boss calls me the 'master of optimization' for my code efficiency skills",
+      "icon": "⚡",
+      "category": "optimization"
+    },
+    {
+      "fact": "I've worked on both Solana and Ethereum smart contracts",
+      "icon": "⛓️",
+      "category": "blockchain"
+    },
+    {
+      "fact": "Built Play-to-Earn game backend handling NFT character logic",
+      "icon": "🎮",
+      "category": "gaming"
+    },
+    {
+      "fact": "Currently working on AI chat platform with imaginary characters",
+      "icon": "🤖",
+      "category": "ai"
+    }
+  ],
+  "currentStatus": {
+    "availability": "Open to learn something new",
+    "location": "Jakarta, Indonesia (Open to remote)",
+    "workType": "Full-time, Contract, or Freelance",
+    "interests": [
+      "Full-stack Developer roles",
+      "Web3 Developer positions",
+      "AI/ML integration projects"
+    ],
+    "currentlyLearning": ["Advanced AI integration"],
+    "currentlyReading": "Asterix and Obelix by Rene Goscinny and Albert Uderzo",
+    "currentProject": "Building AI chat platform with imaginary characters using react.js and supabase with AI integration"
+  },
+  "social": {
+    "github": {
+      "url": "https://github.com/inininda",
+      "username": "@inininda"
+    },
+    "linkedin": {
+      "url": "https://www.linkedin.com/in/ninda-mawarni-it/",
+      "username": "Ninda Mawarni"
+    }
+  }
+}
