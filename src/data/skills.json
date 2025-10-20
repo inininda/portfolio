@@ -1,0 +1,282 @@
+{
+  "categories": [
+    {
+      "id": "frontend",
+      "name": "Frontend Development",
+      "icon": "🎨",
+      "description": "Building beautiful and interactive user interfaces",
+      "skills": [
+        {
+          "name": "Vue.js",
+          "level": 90,
+          "icon": "💚",
+          "description": "Primary frontend framework for building modern web applications",
+          "yearsOfExperience": 3,
+          "projects": 8,
+          "tags": ["Composition API", "Vuex", "Vue Router", "Nuxt.js"]
+        },
+        {
+          "name": "React.js",
+          "level": 90,
+          "icon": "⚛️",
+          "description": "Building dynamic UIs and current AI chat platform",
+          "yearsOfExperience": 2,
+          "projects": 1,
+          "tags": ["Hooks", "Context API", "JSX", "Component Lifecycle"]
+        },
+        {
+          "name": "Nuxt.js",
+          "level": 90,
+          "icon": "💚",
+          "description": "Vue.js framework for production-ready applications",
+          "yearsOfExperience": 3,
+          "projects": 5,
+          "tags": ["SSR", "SSG", "Auto-routing", "Modules"]
+        },
+        {
+          "name": "Three.js",
+          "level": 70,
+          "icon": "🎮",
+          "description": "3D graphics library for web applications",
+          "yearsOfExperience": 1,
+          "projects": 1,
+          "tags": ["3D Graphics", "WebGL", "Animations", "Geometry"]
+        },
+        {
+          "name": "Vite",
+          "level": 90,
+          "icon": "⚡",
+          "description": "Fast build tool for modern web development",
+          "yearsOfExperience": 3,
+          "projects": 8,
+          "tags": ["Fast HMR", "ES Modules", "Build Optimization", "Dev Server"]
+        }
+      ]
+    },
+    {
+      "id": "backend",
+      "name": "Backend Development",
+      "icon": "⚙️",
+      "description": "Server-side logic, APIs, and database management",
+      "skills": [
+        {
+          "name": "Node.js",
+          "level": 90,
+          "icon": "🟢",
+          "description": "JavaScript runtime for building scalable server applications",
+          "yearsOfExperience": 3,
+          "projects": 2,
+          "tags": [
+            "Express.js",
+            "API Development",
+            "Async Programming",
+            "Middleware"
+          ]
+        },
+        {
+          "name": "Nest.js",
+          "level": 80,
+          "icon": "🔴",
+          "description": "Progressive Node.js framework for building efficient server-side applications",
+          "yearsOfExperience": 3,
+          "projects": 2,
+          "tags": ["TypeScript", "Decorators", "Dependency Injection", "Guards"]
+        },
+        {
+          "name": "PHP",
+          "level": 80,
+          "icon": "🐘",
+          "description": "Server-side scripting language, used in early career",
+          "yearsOfExperience": 2,
+          "projects": 10,
+          "tags": ["CodeIgniter", "Laravel", "OOP", "Web Development"]
+        },
+        {
+          "name": "MySQL",
+          "level": 90,
+          "icon": "🗄️",
+          "description": "Relational database management system",
+          "yearsOfExperience": 4,
+          "projects": 18,
+          "tags": [
+            "Complex Queries",
+            "Indexing",
+            "Optimization",
+            "Database Design"
+          ]
+        },
+        {
+          "name": "Supabase",
+          "level": 90,
+          "icon": "⚡",
+          "description": "Open source Firebase alternative for current AI project",
+          "yearsOfExperience": 1,
+          "projects": 3,
+          "tags": ["PostgreSQL", "Real-time", "Authentication", "Storage"]
+        },
+        {
+          "name": "PostgreSQL",
+          "level": 85,
+          "icon": "🐘",
+          "description": "Advanced relational database with powerful features",
+          "yearsOfExperience": 1,
+          "projects": 3,
+          "tags": ["Advanced Queries", "JSON Support", "ACID Compliance", "Scalability"]
+        }
+      ]
+    },
+    {
+      "id": "blockchain",
+      "name": "Blockchain & Web3",
+      "icon": "⛓️",
+      "description": "Smart contracts, NFTs, and blockchain integration",
+      "skills": [
+        {
+          "name": "Solidity",
+          "level": 90,
+          "icon": "💎",
+          "description": "Smart contract development for Ethereum and compatible chains",
+          "yearsOfExperience": 2,
+          "projects": 8,
+          "tags": ["Smart Contracts", "NFTs", "Tokens", "DeFi"]
+        },
+        {
+          "name": "Ethers.js",
+          "level": 90,
+          "icon": "🔗",
+          "description": "Ethereum blockchain interaction library",
+          "yearsOfExperience": 2,
+          "projects": 10,
+          "tags": [
+            "Web3 Integration",
+            "Wallet Connection",
+            "Contract Interaction",
+            "Transactions"
+          ]
+        },
+        {
+          "name": "Viem",
+          "level": 90,
+          "icon": "⚡",
+          "description": "TypeScript interface for Ethereum",
+          "yearsOfExperience": 1,
+          "projects": 5,
+          "tags": ["TypeScript", "Type Safety", "Ethereum", "Modern Web3"]
+        },
+        {
+          "name": "Solana Web3.js",
+          "level": 90,
+          "icon": "🌞",
+          "description": "Solana blockchain development",
+          "yearsOfExperience": 1,
+          "projects": 4,
+          "tags": ["Solana", "Programs", "Transactions", "Wallets"]
+        },
+        {
+          "name": "LayerZero",
+          "level": 70,
+          "icon": "🌉",
+          "description": "Cross-chain bridge development",
+          "yearsOfExperience": 1,
+          "projects": 2,
+          "tags": ["Cross-chain", "Interoperability", "Bridge", "Multi-chain"]
+        }
+      ]
+    },
+    {
+      "id": "testing",
+      "name": "Testing & Tools",
+      "icon": "🧪",
+      "description": "Testing frameworks and development tools",
+      "skills": [
+        {
+          "name": "Jest",
+          "level": 80,
+          "icon": "🃏",
+          "description": "JavaScript testing framework for unit and integration tests",
+          "yearsOfExperience": 2,
+          "projects": 10,
+          "tags": ["Unit Testing", "Mocking", "Coverage", "Snapshots"]
+        },
+        {
+          "name": "Mocha",
+          "level": 90,
+          "icon": "☕",
+          "description": "JavaScript test framework for Node.js applications",
+          "yearsOfExperience": 2,
+          "projects": 8,
+          "tags": ["BDD", "TDD", "Async Testing", "Hooks"]
+        },
+        {
+          "name": "Remix IDE",
+          "level": 90,
+          "icon": "🔧",
+          "description": "Web-based IDE for smart contract development",
+          "yearsOfExperience": 2,
+          "projects": 12,
+          "tags": ["Smart Contracts", "Solidity", "Debugging", "Deployment"]
+        },
+        {
+          "name": "Hardhat",
+          "level": 90,
+          "icon": "⚒️",
+          "description": "Ethereum development environment for smart contracts",
+          "yearsOfExperience": 2,
+          "projects": 8,
+          "tags": ["Local Blockchain", "Testing", "Deployment", "Scripts"]
+        },
+        {
+          "name": "Git",
+          "level": 90,
+          "icon": "📝",
+          "description": "Version control for collaborative development",
+          "yearsOfExperience": 5,
+          "projects": 25,
+          "tags": ["Branching", "Merging", "Collaboration", "Workflows"]
+        }
+      ]
+    }
+  ],
+  "softSkills": [
+    {
+      "name": "Code Optimization",
+      "description": "Master of optimization - finding efficient solutions and improving performance",
+      "icon": "⚡",
+      "examples": [
+        "Performance improvements",
+        "Code efficiency",
+        "Resource optimization"
+      ]
+    },
+    {
+      "name": "Problem Solving",
+      "description": "Tackling complex challenges through various approaches",
+      "icon": "🧩",
+      "examples": [
+        "Multiple solution approaches",
+        "Creative problem solving",
+        "Technical troubleshooting"
+      ]
+    },
+    {
+      "name": "Adaptability",
+      "description": "Successfully transitioning between technologies and roles",
+      "icon": "🔄",
+      "examples": [
+        "PHP to JavaScript transition",
+        "Frontend to Full-stack",
+        "Web2 to Web3 development"
+      ]
+    },
+    {
+      "name": "Continuous Learning",
+      "description": "Always eager to learn new technologies and improve skills",
+      "icon": "📚",
+      "examples": [
+        "Learning AI integration",
+        "Exploring new frameworks",
+        "Staying current with trends"
+      ]
+    }
+  ]
+}

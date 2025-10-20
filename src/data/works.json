@@ -1,0 +1,488 @@
+{
+  "featured": [
+    {
+      "id": "imaginary-world",
+      "title": "Imaginary World",
+      "subtitle": "Web3 Gaming & NFT Staking Platform",
+      "description": "A core engagement platform for Imaginary Ones ecosystem where users can stake NFTs, participate in adventures, and earn rewards through gamified experiences.",
+      "longDescription": "The Imaginary World website is a core engagement platform developed by Imaginary Ones Pte Ltd. It offers holders a way to interact with their NFTs and tokens in a gamified, rewarding environment. Users can stake their Imaginary Ones NFTs directly on the platform to participate in a variety of adventures, earning rewards over time based on their activity and commitment. The site also hosts unique seasonal experiences such as the Imaginary Carnival, where participants can stake their $BUBBLE tokens, play mini-games, and compete for prizes.",
+      "image": "/projects/imaginaryworld/imaginaryworld-1.png",
+      "images": [
+        "/projects/imaginaryworld/imaginaryworld-1.png",
+        "/projects/imaginaryworld/imaginaryworld-2.png",
+        "/projects/imaginaryworld/imaginaryworld-3.png",
+        "/projects/imaginaryworld/imaginaryworld-4.png",
+        "/projects/imaginaryworld/imaginaryworld-5.png"
+      ],
+      "technologies": [
+        "Vue.js 3",
+        "SCSS",
+        "Vuetify",
+        "Viem",
+        "Ethers.js",
+        "Solidity",
+        "Nest.js",
+        "Node.js",
+        "TypeScript"
+      ],
+      "category": "Web3",
+      "categoryIds": ["web3", "full-stack"],
+      "status": "completed",
+      "featured": true,
+      "githubUrl": "",
+      "liveUrl": "http://world.imaginaryones.com/",
+      "teamSize": 6,
+      "role": "Full-Stack Web3 Developer",
+      "challenges": [
+        "Integrating complex smart contract interactions with user-friendly UI",
+        "Managing real-time NFT staking and reward calculations",
+        "Building scalable Web3 authentication and wallet connection"
+      ],
+      "achievements": [
+        "Successfully launched NFT staking platform with 1000+ active users",
+        "Implemented seamless Web3 wallet integration",
+        "Built complex reward distribution system with smart contracts"
+      ]
+    },
+    {
+      "id": "bubble-claim",
+      "title": "BUBBLE Token Platform",
+      "subtitle": "Web3 Token Distribution & Staking",
+      "description": "Official platform for $BUBBLE token claiming, and ecosystem interaction with smart contract integration and NFT holder benefits.",
+      "longDescription": "The BUBBLE platform serves as the official hub for $BUBBLE, the utility token developed by Imaginary Ones Pte Ltd. This token is integral to the Imaginary World ecosystem, facilitating transactions across gaming, merchandise, and content. The site offers eligible users the ability to claim their allocated $BUBBLE tokens through integration with smart contracts, with eligibility extending to holders of specific NFTs and participants in social and gaming activities.",
+      "image": "/projects/bubble/bubble-1.png",
+      "images": ["/projects/bubble/bubble-1.png"],
+      "technologies": [
+        "Vue.js 3",
+        "SCSS",
+        "Vuetify",
+        "Viem",
+        "Ethers.js",
+        "Solidity",
+        "Remix IDE",
+        "Hardhat",
+        "Nest.js"
+      ],
+      "category": "Web3",
+      "categoryIds": ["web3", "full-stack"],
+      "status": "completed",
+      "featured": true,
+      "githubUrl": "",
+      "liveUrl": "https://bubble.imaginaryones.com/",
+      "teamSize": 7,
+      "role": "Full-Stack Web3 Developer",
+      "challenges": [
+        "Building secure token claiming mechanism with smart contracts",
+        "Implementing complex eligibility verification system",
+        "Managing high-volume token distribution events"
+      ],
+      "achievements": [
+        "Successfully distributed tokens to 5000+ eligible users",
+        "Built robust smart contract integration with zero security issues",
+        "Implemented efficient NFT holder verification system"
+      ]
+    },
+    {
+      "id": "bubio-ai",
+      "title": "Bubio.ai",
+      "subtitle": "AI-Powered Chat Platform with Monetization",
+      "description": "Modern AI chat platform built with React.js featuring intelligent conversations, user authentication, subscription management, and seamless payment processing through Stripe integration.",
+      "longDescription": "Bubio.ai is a sophisticated AI-powered chat platform that delivers intelligent conversational experiences to users. Built with React.js and powered by Supabase for backend services, the platform offers seamless user authentication, real-time chat capabilities, and robust data management. The integration with Stripe enables flexible subscription models and payment processing, allowing users to access premium AI features. The platform emphasizes user experience with a clean, responsive interface and efficient state management for handling complex chat interactions and user sessions.",
+      "image": "/projects/bubio/bubio-1.png",
+      "images": ["/projects/bubio/bubio-1.png"],
+      "technologies": [
+        "React.js",
+        "TypeScript",
+        "Supabase",
+        "Stripe",
+        "Tailwind CSS",
+        "Vite",
+        "PostgreSQL"
+      ],
+      "category": "Full-Stack",
+      "categoryIds": ["full-stack"],
+      "status": "ongoing",
+      "featured": true,
+      "githubUrl": "",
+      "liveUrl": "https://bubio.ai/",
+      "teamSize": 1,
+      "role": "Full-Stack Developer",
+      "challenges": [
+        "Integrating AI chat APIs with real-time user interactions",
+        "Implementing secure payment processing with Stripe subscriptions",
+        "Managing complex state for chat history and user sessions",
+        "Optimizing performance for real-time chat experiences"
+      ],
+      "achievements": [
+        "Built scalable AI chat platform with real-time capabilities",
+        "Implemented secure user authentication and session management",
+        "Integrated flexible subscription and payment system",
+        "Achieved seamless user experience with responsive design"
+      ]
+    },
+    {
+      "id": "imaginary-rides",
+      "title": "Imaginary Rides NFT Platform",
+      "subtitle": "3D Animated NFT Collection & Ecosystem",
+      "description": "Central platform for Imaginary Rides NFT collection featuring 3D animated artworks, staking mechanisms, and ecosystem integration with smart contracts.",
+      "longDescription": "The Imaginary Rides Site serves as the central platform for Imaginary Rides, the second NFT collection from Imaginary Ones. This collection features meticulously crafted 3D animated artworks categorized into Air, Land, and Sea rides. Holders gain access to the broader Imaginary Ones ecosystem and can participate in the Bubble Squad feature to earn Rainbow Bubbles and exclusive $BUBBLE token allocations.",
+      "image": "/projects/imaginaryrides/imaginaryrides-1.png",
+      "images": [
+        "/projects/imaginaryrides/imaginaryrides-1.png",
+        "/projects/imaginaryrides/imaginaryrides-2.png",
+        "/projects/imaginaryrides/imaginaryrides-3.png",
+        "/projects/imaginaryrides/imaginaryrides-4.png",
+        "/projects/imaginaryrides/imaginaryrides-5.png"
+      ],
+      "technologies": [
+        "Vue.js 3",
+        "SCSS",
+        "Vuetify",
+        "Viem",
+        "Ethers.js",
+        "Solidity",
+        "Remix IDE",
+        "Hardhat",
+        "Nest.js",
+        "Three.js"
+      ],
+      "category": "Web3",
+      "categoryIds": ["web3", "full-stack"],
+      "status": "completed",
+      "featured": true,
+      "githubUrl": "",
+      "liveUrl": "https://rides.imaginaryones.com/",
+      "teamSize": 6,
+      "role": "Full-Stack Web3 Developer",
+      "challenges": [
+        "Building complex NFT ecosystem integration",
+        "Implementing multi-phase minting with deposit system",
+        "Creating seamless 3D NFT display and interaction"
+      ],
+      "achievements": [
+        "Successfully launched second major NFT collection",
+        "Built innovative deposit-based minting system"
+      ]
+    },
+    {
+      "id": "pagecart",
+      "title": "PageCart",
+      "subtitle": "E-commerce Book Store Platform",
+      "description": "Modern e-commerce platform for book purchases featuring React.js frontend, Supabase backend, Stripe payment integration, and FedEx shipping API for seamless online book shopping experience.",
+      "longDescription": "PageCart is a comprehensive e-commerce platform specifically designed for book lovers and retailers. Built with modern web technologies, the platform offers a seamless shopping experience from browsing to delivery. The React.js frontend provides an intuitive and responsive user interface, while TypeScript ensures type safety and better development experience. Supabase powers the backend with real-time database capabilities, user authentication, and secure data management. The integration with Stripe enables secure payment processing with support for various payment methods, while FedEx API integration provides reliable shipping solutions with real-time tracking capabilities. The platform emphasizes user experience with features like advanced book search, categorization, user reviews, and order management.",
+      "image": "/projects/pagecart/pagecart-1.png",
+      "images": ["/projects/pagecart/pagecart-1.png"],
+      "technologies": [
+        "React.js",
+        "TypeScript",
+        "Supabase",
+        "Stripe",
+        "FedEx API",
+        "Tailwind CSS",
+        "Vite"
+      ],
+      "category": "Full-Stack",
+      "categoryIds": ["full-stack"],
+      "status": "ongoing",
+      "featured": true,
+      "githubUrl": "https://github.com/inininda/PageCart",
+      "liveUrl": "",
+      "teamSize": 1,
+      "role": "Full-Stack Developer",
+      "challenges": [
+        "Integrating multiple third-party APIs (Stripe and FedEx) seamlessly",
+        "Building scalable e-commerce architecture with inventory management",
+        "Implementing secure payment processing and order tracking",
+        "Creating responsive design for optimal mobile shopping experience"
+      ],
+      "achievements": [
+        "Built modern e-commerce platform with React and TypeScript",
+        "Integrated secure payment processing with Stripe",
+        "Implemented real-time shipping tracking with FedEx API",
+        "Created scalable backend architecture with Supabase"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "eastern-financial-radar",
+      "title": "Eastern Financial Radar Site",
+      "subtitle": "Modern Financial Content Platform",
+      "description": "A modern, content-driven website designed to deliver curated financial insights, market trends, and analytical commentary with clean editorial layout and professional aesthetic.",
+      "image": "/projects/easternfinancialradar/easternfinancialradar-1.png",
+      "technologies": [
+        "Nuxt3",
+        "SCSS",
+        "Vuetify",
+        "Axios",
+        "Firebase",
+        "Node.js"
+      ],
+      "category": "Full-Stack",
+      "categoryIds": ["full-stack"],
+      "status": "completed",
+      "featured": false,
+      "githubUrl": "",
+      "teamSize": 1,
+      "role": "Full-Stack Developer",
+      "liveUrl": "https://easternfinancialradar.com/"
+    },
+    {
+      "id": "imaginary-ones-site",
+      "title": "Imaginary Ones Site",
+      "subtitle": "Web3 Entertainment Group Platform",
+      "description": "Central platform for Imaginary Ones, a Web3 entertainment group featuring 8,888 unique 3D NFTs, gaming experiences, and brand collaborations.",
+      "image": "/projects/imaginaryones/imaginaryones-1.png",
+      "technologies": ["Nuxt3", "SCSS", "Vuetify", "GSAP", "Axios"],
+      "category": "Web3",
+      "categoryIds": ["web3", "frontend"],
+      "status": "completed",
+      "featured": true,
+      "githubUrl": "",
+      "teamSize": 4,
+      "role": "Full-Stack Developer",
+      "liveUrl": "https://imaginaryones.com/"
+    },
+    {
+      "id": "bubble-rangers-challenges",
+      "title": "BUBBLE Rangers Site",
+      "subtitle": "Gamified Community Engagement Platform",
+      "description": "Interactive hub for Bubble Rangers ecosystem with weekly challenges where users complete tasks to earn $BUBBLE tokens through social and gameplay activities.",
+      "image": "/projects/bubblerangers/bubblerangers-1.png",
+      "technologies": ["Vue.js 3", "SCSS", "Vuetify", "Axios"],
+      "category": "Web3",
+      "categoryIds": ["web3", "frontend"],
+      "status": "completed",
+      "featured": false,
+      "githubUrl": "",
+      "teamSize": 4,
+      "role": "Full-Stack Developer",
+      "liveUrl": "https://bubblerangers.com/challenges"
+    },
+    {
+      "id": "imaginary-rides-sc",
+      "title": "Imaginary Rides Smart Contract",
+      "subtitle": "ERC721A-based NFT Distribution System",
+      "description": "Advanced ERC721A smart contract for structured NFT distribution combining deposit-based access, whitelisting, and multiple airdrop types with Merkle proof access control.",
+      "longDescription": "IR is an ERC721A-based smart contract developed for a structured NFT distribution system that combines deposit-based access, whitelisting, and multiple airdrop types. The contract supports both guaranteed and non-guaranteed deposits through VIP and FCFS whitelists, using Merkle proofs for access control. It includes logic for handling refunds, ensures fair supply allocation, and manages airdrops for holders, leaderboard participants, the treasury, and special gifts. The project includes royalty support (ERC2981), operator filtering for marketplace compliance, and advanced state tracking for deposits and airdrops. The minting process is tightly regulated by rules around maximum allocations and user categories, ensuring both security and fairness throughout the drop lifecycle.",
+      "image": "/projects/sc/sc-1.png",
+      "technologies": [
+        "Solidity",
+        "Remix",
+        "Ethers.js",
+        "Hardhat",
+        "MerkleTree"
+      ],
+      "category": "Smart Contract",
+      "categoryIds": ["smart-contract"],
+      "status": "completed",
+      "featured": false,
+      "githubUrl": "",
+      "teamSize": 2,
+      "role": "Smart Contract Developer",
+      "liveUrl": "https://etherscan.io/address/0x878586da1ed007a4d19de3e7a59eca98814e2808",
+      "challenges": [
+        "Implementing complex deposit-based access system with refunds",
+        "Managing multiple whitelist types with Merkle proof verification",
+        "Building fair airdrop distribution across different user categories"
+      ],
+      "achievements": [
+        "Successfully deployed ERC721A contract with advanced features",
+        "Implemented secure Merkle proof-based whitelist system",
+        "Built comprehensive airdrop and refund management system"
+      ]
+    },
+    {
+      "id": "io-garage-ride-sphere-sc",
+      "title": "IO Garage, IO Sphere, IO Ride Smart Contract",
+      "subtitle": "Multi-Contract Gamified NFT Ecosystem",
+      "description": "Connected suite of smart contracts powering a multi-phase, gamified NFT minting experience with reveal mechanics that transform garage NFTs into rides and spheres.",
+      "longDescription": "IOGarage, IORides, and IOSpheres form a connected suite of smart contracts that power a multi-phase, gamified NFT minting experience on Ethereum. At the core of the system is IOGarage, an ERC721A-based contract that allows users to mint garage NFTs through both free and public sale phases. Free minting leverages Merkle Tree whitelist verification, while public minting is protected by ECDSA signature validation and nonce tracking to prevent bots and replay attacks. IOGarage enforces strict mint limits, supplies, and ownership checks while incorporating customizable royalty settings and operator filtering for compliance with major marketplaces. What makes this system unique is the reveal mechanism inside IOGarage, where users can 'reveal' their garage NFT to receive two separate assets: an ERC721 token from IORides, and an ERC1155 token from IOSpheres. This transformation is only triggered by the IOGarage contract, ensuring a tightly controlled, trustless minting flow. The IORides contract is a standard ERC721 with enumerable functionality and marketplace compliance via operator filtering, designed to mint unique tokens corresponding to the garage's revealed identity. In parallel, IOSpheres introduces a flexible ERC1155 implementation with upgradeability support. Each sphere type can have different max supplies and minting rules, enabling dynamic token generation tied to the garage reveal event. All three contracts are modular but interdependent, with strict access control ensuring that only IOGarage can mint IORides and IOSpheres, preserving the integrity of the reveal mechanic. The architecture enables engaging, multi-token utility while maintaining scalability, upgradability, and security through best practices, including custom errors for gas optimization, reentrancy protection, and full support for royalty standards like ERC2981. This system demonstrates a creative and secure approach to interconnected NFTs and collectible mechanics on-chain.",
+      "image": "/projects/sc/sc-1.png",
+      "technologies": [
+        "Solidity",
+        "Remix",
+        "Ethers.js",
+        "Hardhat",
+        "MerkleTree"
+      ],
+      "category": "Smart Contract",
+      "categoryIds": ["smart-contract"],
+      "status": "completed",
+      "featured": false,
+      "githubUrl": "https://github.com/inininda/io-garage-ride-sphere",
+      "teamSize": 1,
+      "role": "Smart Contract Developer",
+      "liveUrl": "",
+      "challenges": [
+        "Designing interconnected multi-contract architecture with reveal mechanics",
+        "Implementing secure cross-contract minting with access control",
+        "Building complex ERC721A + ERC1155 transformation system",
+        "Ensuring gas optimization across multiple contract interactions"
+      ],
+      "achievements": [
+        "Successfully architected complex multi-contract NFT ecosystem",
+        "Implemented innovative reveal-to-mint transformation mechanics",
+        "Built secure cross-contract communication with strict access control",
+        "Created modular system supporting ERC721A, ERC721, and ERC1155 standards"
+      ]
+    },
+    {
+      "id": "bubble-claim-sc",
+      "title": "Bubble Claim Smart Contract",
+      "subtitle": "Token Vesting & Staking Management System",
+      "description": "Smart contract managing token claims over time through structured vesting and staking system, supporting regular claims for NFT holders and special claims for farmers with signature-based verification.",
+      "longDescription": "BubbleClaim is a smart contract built to manage token claims over time through a structured vesting and staking system. It supports two main claim flows: regular claims for NFT holders and special claims for 'farmers.' Each claim is authorized through a secure signature-based verification and can be directed either to the user's wallet or automatically staked for yield. The contract also handles bonus eligibility based on NFT ownership and staking status, and includes protections like pausing, upgradeability, and signature validity checks. This system plays a key role in managing controlled token distribution over long periods, promoting both fairness and flexibility within the Bubble ecosystem.",
+      "image": "/projects/sc/sc-1.png",
+      "technologies": ["Solidity", "Remix", "Ethers.js", "Hardhat", "Viem"],
+      "category": "Smart Contract",
+      "categoryIds": ["smart-contract"],
+      "status": "completed",
+      "featured": false,
+      "githubUrl": "",
+      "teamSize": 2,
+      "role": "Smart Contract Developer",
+      "liveUrl": "https://etherscan.io/address/0xa364AFa0696ca0f0C75Ba068c436346D815a5998#readProxyContract",
+      "challenges": [
+        "Implementing secure signature-based claim verification",
+        "Building flexible vesting system with staking integration",
+        "Managing bonus eligibility based on NFT ownership status"
+      ],
+      "achievements": [
+        "Successfully deployed upgradeable token claim system",
+        "Implemented dual-flow claiming for different user types",
+        "Built secure signature verification with replay protection"
+      ]
+    },
+    {
+      "id": "red-packet-nft-sc",
+      "title": "Red Packet NFT Smart Contract",
+      "subtitle": "Upgradeable ERC721 on Polygon",
+      "description": "Upgradeable ERC721 smart contract deployed on Polygon for efficient NFT distribution with role-based minting, batch operations, and UUPS proxy pattern for cost-effective scaling.",
+      "longDescription": "RedPacket is an upgradable ERC721 smart contract deployed on Polygon, designed for efficient and controlled NFT distribution. It features role-based minting, batch mint and burn operations, and total supply management to support large-scale token drops. The contract follows OpenZeppelin standards for access control and upgradeability using the UUPS proxy pattern. With flexible metadata handling and secure permissions, RedPacket is optimized for performance and cost-efficiency on Polygon's low-gas infrastructure.",
+      "image": "/projects/sc/sc-1.png",
+      "technologies": ["Solidity", "Remix", "Ethers.js", "Hardhat", "Viem"],
+      "category": "Smart Contract",
+      "categoryIds": ["smart-contract"],
+      "status": "completed",
+      "featured": false,
+      "githubUrl": "",
+      "teamSize": 1,
+      "role": "Smart Contract Developer",
+      "liveUrl": "https://amoy.polygonscan.com/address/0x868391fc28ebd8fad377e6ffa5ce093904aadee7#code",
+      "challenges": [
+        "Optimizing gas costs for large-scale NFT distribution on Polygon",
+        "Implementing UUPS proxy pattern for upgradeability",
+        "Building efficient batch minting and burning operations"
+      ],
+      "achievements": [
+        "Successfully deployed cost-efficient NFT contract on Polygon",
+        "Implemented OpenZeppelin-standard upgradeable architecture",
+        "Built scalable batch operations for mass distribution"
+      ]
+    },
+    {
+      "id": "happy-bunny-sc",
+      "title": "Happy Bunny Smart Contract",
+      "subtitle": "Secure NFT Collection with Phased Minting",
+      "description": "1001-piece ERC-721 NFT collection with whitelist Pre-Sale using Merkle Tree verification and Public Sale with ECDSA signature validation for bot protection.",
+      "image": "/projects/sc/sc-1.png",
+      "technologies": [
+        "Solidity",
+        "Remix",
+        "Ethers.js",
+        "Hardhat",
+        "MerkleTree"
+      ],
+      "category": "Smart Contract",
+      "categoryIds": ["smart-contract"],
+      "status": "completed",
+      "featured": false,
+      "githubUrl": "https://github.com/inininda/happy-bunny-sc",
+      "liveUrl": ""
+    },
+    {
+      "id": "duckie-land",
+      "title": "Duckie Land",
+      "subtitle": "Web3 Gaming & NFT Ecosystem Platform",
+      "description": "Comprehensive platform for Duckie Land ecosystem featuring NFT management, guild system, duckie breeding, marketplace, and secure authentication with Google Authenticator.",
+      "image": "/projects/duckie/duckie-land-1.png",
+      "technologies": ["PHP", "CodeIgniter", "MySQL", "HTML", "CSS"],
+      "category": "Web3",
+      "categoryIds": ["web3", "full-stack"],
+      "status": "completed",
+      "featured": false,
+      "githubUrl": "",
+      "liveUrl": "https://duckie.land/"
+    },
+    {
+      "id": "boccoroco",
+      "title": "Boccoroco",
+      "subtitle": "E-commerce Platform for Fashion & Accessories",
+      "description": "Comprehensive e-commerce platform for Boccoroco products including shoes, sandals, bags, and luggage with secure payments, shipping integration, affiliate program, and customer service features.",
+      "longDescription": "The Boccoroco website provides users with a delightful platform to explore and purchase a wide range of Boccoroco products, including shoes, sandals, bags, luggage, and much more. With a user-friendly interface, the website offers a seamless and enjoyable shopping experience. To ensure convenience and flexibility, the Boccoroco website supports various secure payment methods. Users can choose their preferred payment option, whether it's credit card payments, bank transfers, or popular e-wallet services, to complete their transactions with ease and confidence. Shipping is made hassle-free through Boccoroco's collaboration with reliable shipping couriers. Users can expect timely and secure delivery of their purchased products right to their doorstep. Each shipment is handled with care, ensuring that the products arrive in perfect condition. Boccoroco's affiliate program adds an exciting dimension to the website. Users can invite others to sign up to Boccoroco using their unique affiliate code. In return, they earn promo coupons based on the number of people who join using their affiliate code. This program rewards users for sharing their love for Boccoroco products and helps them enjoy exclusive discounts on their future purchases. In the event that a desired product is out of stock, the Boccoroco website offers an indent feature. Users can place an indent request to secure their desired item, ensuring that they don't miss out on their preferred choice even if it's temporarily unavailable. Boccoroco values customer satisfaction and provides a complain and return feature on their website. In the rare instance that a customer is not fully satisfied with their purchase, they can easily communicate their concerns and initiate the return process, ensuring a hassle-free resolution.",
+      "image": "/projects/boccoroco/boccoroco-1.png",
+      "images": [
+        "/projects/boccoroco/boccoroco-1.png",
+        "/projects/boccoroco/boccoroco-2.png",
+        "/projects/boccoroco/boccoroco-3.png",
+        "/projects/boccoroco/boccoroco-4.png",
+        "/projects/boccoroco/boccoroco-5.png",
+        "/projects/boccoroco/boccoroco-6.png",
+        "/projects/boccoroco/boccoroco-7.png",
+        "/projects/boccoroco/boccoroco-8.png"
+      ],
+      "technologies": ["PHP", "CodeIgniter", "MySQL", "HTML", "CSS"],
+      "category": "Full-Stack",
+      "categoryIds": ["full-stack"],
+      "status": "completed",
+      "featured": false,
+      "githubUrl": "",
+      "teamSize": 3,
+      "role": "Full-Stack Developer",
+      "liveUrl": "https://bocorocco-online.com/",
+      "challenges": [
+        "Building comprehensive e-commerce system with multiple payment gateways",
+        "Implementing affiliate program with coupon reward system",
+        "Integrating shipping courier APIs for automated logistics",
+        "Creating inventory management with indent/pre-order functionality"
+      ],
+      "achievements": [
+        "Successfully launched full-featured e-commerce platform",
+        "Implemented secure multi-payment gateway integration",
+        "Built effective affiliate marketing system with reward mechanics",
+        "Created comprehensive customer service and return management system"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "web3",
+      "name": "Web3",
+      "description": "Blockchain and NFT platforms",
+      "icon": "⛓️",
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "smart-contract",
+      "name": "Smart Contract",
+      "description": "Solidity blockchain contracts",
+      "icon": "💎",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "full-stack",
+      "name": "Full-Stack",
+      "description": "End-to-end web applications",
+      "icon": "🌐",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "frontend",
+      "name": "Frontend",
+      "description": "User interface and experience",
+      "icon": "🎨",
+      "color": "#10B981"
+    }
+  ]
+}
